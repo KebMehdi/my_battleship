@@ -12,6 +12,12 @@
         fleet: [],
         game: null,
         activeShip: 0,
+        setGame: function () {
+
+        },
+        getGame: function () {
+
+        },
         init: function () {
             // créé la flotte
             this.fleet.push(shipFactory.build(shipFactory.TYPE_BATTLESHIP));
